@@ -25,7 +25,7 @@ if content1.strip()!="" and table_header.strip()!="":
     </body>\n
     </html>
     '''
-    mail_list=["admin@test.com"]
+    mail_list=["kuangling@test.com"]
     msg=MIMEMultipart()
     msg['Accept-Language']='zh-CN'
     msg['Accept-Charset']= 'ISO-8859-1,utf-8'
