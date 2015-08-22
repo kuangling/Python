@@ -1,7 +1,6 @@
 #!/usr/bin/env  python
 #~*~coding:utf8~*~
 # finame swtch_ip.py
-# This is swtch ip python file
 
 import socket,os,sys
 import ConfigParser
