@@ -12,7 +12,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 print sys.getdefaultencoding()
 
-nginx_log_path="/app/nginx/logs/www.access.log"
+nginx_log_path="/app/nginx/logs/www_teat.access.log"
 pattern = re.compile(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}')
 def stat_ip_views(log_path):
     ret={}
